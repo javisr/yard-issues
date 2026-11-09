@@ -1,0 +1,28 @@
+{
+  "build": "090a289a9d837ffb5586deb668d4824db7ae8fbf",
+  "time": "2026-11-10 00:20:12.5745 +0100",
+  "qa_pid": 77562,
+  "exception": "EXC_BREAKPOINT",
+  "signal": "SIGTRAP",
+  "trigger": "Inbox > Drafts > selected sole saved draft > Add to Board; Ready unchecked",
+  "thread": 0,
+  "frames": [
+    "Swift runtime failure: Index out of range",
+    "specialized Array._checkSubscript(_:wasNativeTypeChecked:)",
+    "specialized Array.subscript.getter",
+    "closure #1 in closure #1 in InboxView.list.getter",
+    "closure #1 in ForEachChild.updateValue()",
+    "ForEachChild.updateValue()",
+    "partial apply for implicit closure #1 in closure #1 in closure #1 in Attribute.init<A>(_:)",
+    "AG::Graph::UpdateStack::update()",
+    "AG::Subgraph::update(unsigned int)",
+    "GraphHost.flushTransactions()",
+    "closure #1 in closure #1 in closure #1 in NSHostingView.beginTransaction()",
+    "partial apply for closure #1 in ViewGraphRootValueUpdater.updateGraph<A>(body:)",
+    "ViewGraphRootValueUpdater._updateViewGraph<A>(body:)",
+    "ViewGraphRootValueUpdater.updateGraph<A>(body:)",
+    "closure #1 in closure #1 in NSHostingView.beginTransaction()",
+    "<deduplicated_symbol>"
+  ],
+  "scope": "Only isolated QA process terminated; ordinary Yard54246 remains running."
+}
