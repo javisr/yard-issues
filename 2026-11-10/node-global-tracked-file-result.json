@@ -1,0 +1,7 @@
+{
+  "fixture": "ux-node-script-first",
+  "time": "2026-11-10T08:50:29.341430+00:00",
+  "file_existed_and_tracked_before": true,
+  "file_exists_after_global": false,
+  "git_status_after_global": "D .nvmrc"
+}
